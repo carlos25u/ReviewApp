@@ -17,7 +17,7 @@ export class ReviewsService {
 
   constructor( private http:HttpClient) {}
 
-  getReviews():Observable<ReviewsConsultas[]>{
+  getAllReviews():Observable<ReviewsConsultas[]>{
     return this.http.get<ReviewsConsultas[]>(`${this.url}`)
   }
 
