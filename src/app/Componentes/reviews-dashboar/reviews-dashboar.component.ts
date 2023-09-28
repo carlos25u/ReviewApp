@@ -21,9 +21,8 @@ export class ReviewsDashboarComponent {
   } 
   
   getReview(){
-    this.reviewService.getReviews().subscribe(
+    this.reviewService.getAllReviews().subscribe(
       (data:ReviewsConsultas[]) =>{
-        
         this.list = data
       },
       (error)=>{
