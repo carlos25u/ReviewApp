@@ -6,6 +6,7 @@ import { ReviewsService } from 'src/app/Services/reviews.service';
 @Component({
   selector: 'app-reviews-dashboar',
   templateUrl: './reviews-dashboar.component.html',
+  styleUrls: ['./reviews-dashboar.component.css']
 })
 export class ReviewsDashboarComponent {
 
